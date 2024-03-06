@@ -5,6 +5,8 @@ function App() {
     <div>
       <h1>Main File here..</h1>
       <Gallery />
+      <Gallery />
+      <Gallery />
     </div>
   );
 }
