@@ -1,8 +1,17 @@
+import MyApp from "./components/Counter2";
+import Counter from "./components/Coutner";
+import Gallery from "./components/Gallery";
+import Profile from "./components/User";
+
 //1.4.P1
-function App() {
+export function App() {
   return (
     <div>
-      <p>Hello world</p>
+      <h1>This is for practice</h1>
+      <Profile />
+      <Gallery />
+      <Counter />
+      <MyApp />
     </div>
   );
 }
