@@ -1,10 +1,9 @@
-import Gallery from "./components/Gallery";
+import Test2 from "./components/Test2";
 //1.6.P1
 function App() {
   return (
     <div>
-      <h1>Main File here..</h1>
-      <Gallery />
+      <Test2 />
     </div>
   );
 }
