@@ -4,6 +4,9 @@ function App() {
     return (
         <div>
             <Gallery />
+            <Gallery />
+            <Gallery />
+            <Gallery />
            
         </div>
     );
