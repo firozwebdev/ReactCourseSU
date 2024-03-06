@@ -1,12 +1,10 @@
-import Gallery from "./components/Gallery";
 //1.4.P1
 function App() {
-    return (
-        <div>
-            <Gallery />
-           
-        </div>
-    );
+  return (
+    <div>
+      <p>Hello world</p>
+    </div>
+  );
 }
 
 export default App;
