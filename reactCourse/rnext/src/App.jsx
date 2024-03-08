@@ -1,9 +1,8 @@
-import Test2 from "./components/Test2";
 //1.6.P1
 function App() {
   return (
     <div>
-      <Test2 />
+      <h1>Hello World</h1>
     </div>
   );
 }
