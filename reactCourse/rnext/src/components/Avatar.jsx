@@ -1,17 +1,9 @@
-const p = {
-  person: {
-    name: "Lin Lanying",
-    imageId: "1bX5QH6",
-  },
-  size: 100,
-};
-function Avatar({ person, size=0 }) {
+
+function Avatar(props) {
   return (
     <div>
       <div>
-        <h1>{person}</h1>
-        
-        <p>{size}</p>
+       <h1>Profile: {props.age}</h1>
       </div>
     </div>
   );
