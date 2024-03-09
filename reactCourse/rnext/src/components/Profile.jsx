@@ -1,18 +1,13 @@
-function Avatar() {
-    return (
-      <img
-        className="avatar"
-        src="https://i.imgur.com/1bX5QH6.jpg"
-        alt="Lin Lanying"
-        width={100}
-        height={100}
-      />
-    );
-  }
+import Avatar from "./Avatar";
+import Info from "./Info";
+
+export default function Profile(props) {
   
 
-  export default function Profile() {
-    return (
-      <Avatar />
-    );
+  return (
+    <div>
+      <Avatar {...props} />
+      <Info age={props.age} />
+    </div>
+  );
 }
