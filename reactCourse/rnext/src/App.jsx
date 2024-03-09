@@ -1,7 +1,7 @@
 import Avatar from "./components/Avatar";
 import Profile from "./components/Profile";
 
-//1.8.P1
+//1.9.P1
 function App() {
   return (
     <div>
