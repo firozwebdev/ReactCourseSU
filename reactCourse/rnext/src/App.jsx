@@ -7,7 +7,7 @@ function App() {
     <div>
       <h1>Hello World</h1>
       <Profile>
-        <Avatar age="30" />
+        <Avatar age="60" />
       </Profile>
     </div>
   );
