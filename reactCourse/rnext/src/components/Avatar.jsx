@@ -1,4 +1,4 @@
-
+//props are immutable means non-changable
 function Avatar(props) {
   return (
     <div>
