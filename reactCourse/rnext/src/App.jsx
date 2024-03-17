@@ -1,14 +1,14 @@
-import Avatar from "./components/Avatar";
-import Profile from "./components/Profile";
 
-//1.8.P1
+//3.6.P1
+import { useState } from "react";
+import Message from "./components/Message";
+
 function App() {
+
   return (
     <div>
-      <h1>Hello World</h1>
-      <Profile>
-        <Avatar age="60" />
-      </Profile>
+     <Message messageColor="red" />
+     <button>Button From Parent</button>
     </div>
   );
 }
