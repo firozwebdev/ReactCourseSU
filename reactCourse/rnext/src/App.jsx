@@ -1,11 +1,12 @@
-import Avatar from "./components/Avatar";
-import Profile from "./components/Profile";
+//import Avatar from "./components/Avatar";
+//import Profile from "./components/Profile";
 
 import { useState } from 'react';
-import AddTask from './AddTask.js';
-import TaskList from './TaskList.js';
+import AddTask from './components/AddTask';
+import TaskList from './components/TaskList';
+import {initialTasks}  from './data.js';
 
-export default function App() {
+function App() {
   const [tasks, setTasks] = useState(initialTasks);
 
   function handleAddTask(text) {
